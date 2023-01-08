@@ -6,7 +6,7 @@ The purpose of the SDK is to provide an affordable alternative to google maps / 
 ## Usage
 
 ### Account
-In order to be able to use the SDK you will need `client_id` and `client_key`, you can register an account at [locationbased.services](https://www.codecogs.com/latex/eqneditor.php) for free, and you will get access to those values in your account dashboard. 
+In order to be able to use the SDK you will need `client_id` and `client_key`, you can register an account at [locationbased.services](https://locationbased.services) for free, and you will get access to those values in your account dashboard. 
 
 ### Code
 
