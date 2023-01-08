@@ -37,6 +37,12 @@ In order to access the class and its methods, you have to follow below steps
 import co.barameg.geoservices.Geoservices
 ```
 
+- DO NOT forget to make sure that your project has permissions to access internet in the `AndroidManifest.xml` file
+
+```
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
 #
 ### Methods
 
