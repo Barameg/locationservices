@@ -52,8 +52,8 @@ ___
 val searchAutocomplete: String = Geoservices().searchAutocomplete(
     client_id = client_id,
     client_key = client_key,
-    language = "25.3448524",
-    country = "55.3982483",
+    language = "en",
+    country = "us",
     query = "dubai"
 )
 ```
@@ -74,8 +74,8 @@ ___
 val forwardGeocoding: String = Geoservices().forwardGeocoding(
     client_id = client_id,
     client_key = client_key,
-    language = "25.3448524",
-    country = "55.3982483",
+    language = "en",
+    country = "us",
     query = "The Dubai Mall - Dubai - United Arab Emirates"
 )
 ```
@@ -87,7 +87,7 @@ val forwardGeocoding: String = Geoservices().forwardGeocoding(
 #### reverseGeocoding
 ___
 ```
-val forwardGeocoding: String = Geoservices().reverseGeocoding(
+val reverseGeocoding: String = Geoservices().reverseGeocoding(
     client_id = client_id,
     client_key = client_key,
     language = "en",
@@ -104,11 +104,9 @@ val forwardGeocoding: String = Geoservices().reverseGeocoding(
 #### routes
 ___
 ```
-val forwardGeocoding: String = Geoservices().routes(
+val routes: String = Geoservices().routes(
     client_id = client_id,
     client_key = client_key,
-    language = "25.3448524",
-    country = "55.3982483",
     origin_latitude = "25.198764999999998",
     origin_longitude = "25.198764999999998",
     destination_latitude = "25.198764999999998",
